@@ -23,7 +23,7 @@ const backgroundImages = [
   './resources/img/bubble-3.jpg',
   './resources/img/bubble-4.jpg',
   './resources/img/bubble-5.jpg'
-]
+];
 let random = Math.floor(Math.random() * backgroundImages.length);
 
 document.querySelector('body').style.backgroundImage = "url('" + backgroundImages[random] + "')";
